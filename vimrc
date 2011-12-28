@@ -3,20 +3,18 @@ call pathogen#runtime_append_all_bundles()
 set wildmenu 
 set cursorline
 set number
-set t_Co=16
+
+set ls=2 "always show status line
 
 "indentions settings
-set expandtab
+set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set expandtab
 
 :set guifont=Monospace\ 11
 
 "colorscheme settings
-"if has('gui_running')
-    "set background=light
-"else
-    "set background=dark
-"endif
+set t_Co=16 "colors magic
 set background=light
 colorscheme solarized
