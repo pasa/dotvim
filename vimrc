@@ -12,9 +12,13 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
-:set guifont=Monospace\ 11
+set guifont=Bitstream\ Vera\ Sans\ Mono\ 9
+":set guifont="Monospace\ 9"
 
 "colorscheme settings
 set t_Co=16 "colors magic
+"let g:solarized_termcolors=256
 set background=light
+let g:solarized_contrast = "high"
+let g:solarized_visibility="high"
 colorscheme solarized
